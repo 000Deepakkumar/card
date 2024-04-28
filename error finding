@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Maker</title>
+    <style>
+        *{
+            margin: 1%;
+            padding: 0%;
+        }
+        #card{
+            background-color: aqua;
+            justify-content: center;
+            text-align: center;
+            border: 1px solid black;
+            margin: 1%;
+            margin-left: 25%;
+            margin-right: 25%;
+            
+            height: 50%
+        }
+    </style>
+</head>
+<body>
+    <div id="card">
+    <h3>User Information</h3>
+    <form action="card.html" >
+        <label for="name">User Name</label>
+        <input type="text" placeholder="Enter user Name" class="name">
+        <br>
+        <label for="photo">Upload Photo</label>
+        <input type="file" placeholder="Chose file" class="file">
+        <br>
+        <label for="gmail">Email</label>
+        <input type="text" placeholder="Enter Email Id" class="mail">
+        <br>
+        <label for="number">Mobile Number</label>
+        <input type="number" placeholder="Enter Mobile number" class="number">
+        <br>
+        <label for="job">Enter Job description</label>
+        <input type="text" class="job">
+        <br>
+        <button id="btn" class="button">Create Card</button>
+    </div>
+</form>
+</body>
+<script src="framework.js"></script>
+</html>
